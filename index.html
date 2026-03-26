@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dice Song Game 🎲</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<button onclick="document.documentElement.requestFullscreen()">
+    🔳 Fullscreen
+</button>
+<div class="container">
+    <h1>🎲 Song Reveal Game 🎵</h1>
+
+    <div class="dice" id="dice">🎲</div>
+    <h2 id="number">Press Start 🎮</h2>
+
+    <div class="song-box" id="song">_ _ _ _</div>
+
+    <div class="controls">
+        <button onclick="startGame()">Start ▶️</button>
+        <button onclick="rollDice()">Roll Dice 🎲</button>
+        <button onclick="startGame()">Next ⏭️</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
